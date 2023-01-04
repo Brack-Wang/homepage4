@@ -87,12 +87,6 @@ main h1 span {
   margin: 0 auto;
 }
 
-main .format {
-  display: flex;
-  position: relative;
-  text-align: center;
-}
-
 main .info {
   --border-color: rgba(0, 0, 0, 0.08);
   position: absolute;
@@ -103,19 +97,9 @@ main .info {
   padding: 0 2.5rem;
   font-size: min(5vw, 2rem);
   box-sizing: border-box;
+  text-align: center;
 }
 
-main .info2 {
-  --border-color: rgba(0, 0, 0, 0.08);
-  position: absolute;
-  bottom: 7rem;
-  left: 0;
-  width: 100%;
-  display: grid;
-  padding: 0 2.5rem;
-  font-size: min(5vw, 2rem);
-  box-sizing: border-box;
-}
 
 main .block {
   display: flex;
@@ -192,20 +176,6 @@ main .details a {
     top: 60vh;
     gap: 5rem;
     grid-template-columns: 1fr 1fr;
-  }
-
-  main .info2 {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 70vh;
-    gap: 5rem;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  main .format {
-    display: flex;
-    position: relative;
     text-align: center;
   }
 
