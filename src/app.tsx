@@ -24,25 +24,52 @@ export default function App({ req, isCold }) {
             </h3>
 
             <div class="info">
+
               <div class="block">
                 <div class="contents">
                   <span class="details">{' '}
-                    <a target="_blank" href="https://www.zhihu.com/people/yang-qi-lin-49/posts">
-                        Zhihu
+                    <a target="_blank" href="https://github.com/Brack-Wang?tab=repositories" color="red">
+                      Github
                     </a> 
                   </span>
-                  {/* <strong
-      
-                  </strong> */}
+                  <strong class="details">{' '}
+                    <a target="_blank" href="https://space.bilibili.com/13924169">
+                      BiliBili
+                    </a> 
+                  </strong>
                 </div>
               </div>
 
               <div class="block">
                 <div class="contents">
-                  <span>Your IP address</span>
-                  <strong>{ip}</strong>
+                  <span class="details">{' '}
+                    <a target="_blank" href="https://www.youtube.com/channel/UCBnlGtn9RYqbfJYIM5nwUKg">
+                      Youtube
+                    </a> 
+                  </span>
+                  <strong class="details">{' '}
+                    <a target="_blank" href="https://www.zhihu.com/people/yang-qi-lin-49/posts">
+                      Zhihu
+                    </a> 
+                  </strong>
                 </div>
               </div>
+
+              <div class="block">
+                <div class="contents">
+                  <span class="details">{' '}
+                  <a target="_blank" href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cvi2.12112">
+                        Publication
+                      </a> 
+                  </span>
+                  <strong class="details">{' '}
+                  <a target="_blank" href="https://franks-life-lv963oheh-brack-wang.vercel.app/">
+                        Life
+                      </a> 
+                  </strong>
+                </div>
+              </div>
+
             </div>
           </main>
           <div class="debug">

@@ -110,13 +110,13 @@ main .block:nth-child(1) {
 main .block span {
   display: block;
   margin: 0 0 0.2em 0;
-  text-transform: uppercase;
-  font-size: 0.6em;
+  /* text-transform: uppercase; */
+  font-size: 1.0em;
 }
 
 main .block strong {
   display: block;
-  font-size: 1.4em;
+  font-size: 1.0em;
   margin: 0;
   font-weight: 600;
 }
