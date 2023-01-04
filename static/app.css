@@ -96,8 +96,8 @@ main .info {
   display: flex;
   padding: 0 3.0rem;
   font-size: min(5vw, 2rem);
-  /* box-sizing: border-box; */
-  margin: 0 auto;
+  box-sizing: content-box;
+  margin: 0;
 }
 
 
@@ -105,7 +105,7 @@ main .block {
   display: flex;
   margin: 0;
   padding: 2rem 0;
-  text-align:center;
+  /* text-align:center; */
 }
 
 main .block:nth-child(1) {
