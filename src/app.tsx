@@ -413,7 +413,7 @@ function Card() {
           fill: 'url(#gradient-vercel)',
         }}
       /> */}
-      <g id="center">
+      {/* <g id="center">
         <path
           d="M420 202 v36 M 402 220h36"
           style={{
@@ -424,7 +424,7 @@ function Card() {
             fill: 'none',
           }}
         />
-      </g>
+      </g> */}
       {/* <use href="#react-logo" width={98} x={500} />
       <use href="#react-logo" width={98} x={500} mask="url(#mask)" /> */}
     </svg>
