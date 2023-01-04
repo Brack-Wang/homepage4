@@ -71,6 +71,27 @@ export default function App({ req, isCold }) {
               </div>
 
             </div>
+
+            <div class="info">
+
+              <div class="block">
+                <div class="contents">
+                  <span class="details">{' '}
+                    <a target="_blank" href="https://github.com/Brack-Wang?tab=repositories" color="red">
+                      Github
+                    </a> 
+                  </span>
+                  <strong class="details">{' '}
+                    <a target="_blank" href="https://space.bilibili.com/13924169">
+                      BiliBili
+                    </a> 
+                  </strong>
+                </div>
+              </div>
+              </div>
+
+
+          
           </main>
           <div class="debug">
             Now is {new Date().toLocaleDateString()} 
