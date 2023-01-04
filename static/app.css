@@ -176,12 +176,21 @@ main .details a {
     grid-template-columns: 1fr 1fr;
   }
 
+  main .info2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70vh;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
   main .format {
     display: flex;
     position: relative;
     text-align: center;
-
   }
+  
   main .block:nth-child(1) {
     border-bottom: none;
     justify-content: end;
