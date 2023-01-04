@@ -166,8 +166,9 @@ main .details a {
     max-width: none;
   }
   main .info {
-    display: block;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
     position: relative;
     top: 60vh;
     gap: 4rem;
