@@ -13,23 +13,27 @@ export default function App({ req, isCold }) {
 
           <main>
             <h1>
-              <span>Hello from the edge!</span>
+              <span>Feiran Wang's</span>
+              <span>Home Page</span>
             </h1>
+            <h2>
+              <span>Welcome to my digital life.</span>
+              </h2>
+            <h3>
+              <span>You're not defined by what you had, but by what you want to be.</span>
+            </h3>
 
             <div class="info">
               <div class="block">
                 <div class="contents">
-                  <span>Your city</span>
-                  <strong
-                    title={
-                      city === null
-                        ? 'GeoIP information could not be derived from your IP'
-                        : null
-                    }
-                    class={city === null ? 'na' : null}
-                  >
-                    {city === null ? 'N/A' : city}
-                  </strong>
+                  <span class="details">{' '}
+                    <a target="_blank" href="https://www.zhihu.com/people/yang-qi-lin-49/posts">
+                        Zhihu
+                    </a> 
+                  </span>
+                  {/* <strong
+      
+                  </strong> */}
                 </div>
               </div>
 

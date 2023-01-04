@@ -51,6 +51,34 @@ main h1 {
   line-height: 1;
 }
 
+main h2 {
+  font-size: min(10vw, 2rem);
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  width: 100%;
+  padding: 0 2.5rem;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+main h3 {
+  font-size: min(4vw, 1rem);
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  top: 55vh;
+  left: 0;
+  width: 100%;
+  padding: 0 2.5rem;
+  box-sizing: border-box;
+  line-height: 1;
+}
+
 main h1 span {
   display: block;
   max-width: 6em;
@@ -96,6 +124,29 @@ main .block strong {
 main .block strong.na {
   color: #ccc;
   font-weight: normal;
+}
+
+
+main p {
+  margin: 0.8em 0;
+}
+
+main a {
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: hover;
+}
+
+main .details {
+  order: 3;
+  grid-column: 1/3;
+  white-space: nowrap;
+}
+
+main .details a {
+  color: var(--react);
 }
 
 .debug {
