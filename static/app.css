@@ -89,14 +89,15 @@ main h1 span {
 
 main .info {
   --border-color: rgba(0, 0, 0, 0.08);
-  position: absolute;
+  position: relative;
   bottom: 9rem;
   left: 0;
   width: 100%;
-  display: inline-block;
+  display: flex;;
   padding: 0 2.5rem;
   font-size: min(5vw, 2rem);
   box-sizing: border-box;
+  float: left;
 }
 
 
