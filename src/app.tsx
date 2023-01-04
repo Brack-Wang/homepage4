@@ -32,10 +32,10 @@ export default function App({ req, isCold }) {
                       Github
                     </a> 
                   </span>
-                  {/* <strong class="details">{' '}
+                  <strong class="details">{' '}
                     <a target="_blank" href="https://space.bilibili.com/13924169">
                       BiliBili
-                    </a>  */}
+                    </a> 
                   </strong>
                 </div>
               </div>
@@ -47,11 +47,11 @@ export default function App({ req, isCold }) {
                       Youtube
                     </a> 
                   </span>
-                  {/* <strong class="details">{' '}
+                  <strong class="details">{' '}
                     <a target="_blank" href="https://www.zhihu.com/people/yang-qi-lin-49/posts">
                       Zhihu
                     </a> 
-                  </strong> */}
+                  </strong>
                 </div>
               </div>
 
@@ -62,11 +62,11 @@ export default function App({ req, isCold }) {
                         Publication
                     </a> 
                   </span>
-                  {/* <strong class="details">{' '}
+                  <strong class="details">{' '}
                     <a target="_blank" href="https://franks-life-lv963oheh-brack-wang.vercel.app/">
                         Life
                     </a> 
-                  </strong> */}
+                  </strong>
                 </div>
               </div>
 
