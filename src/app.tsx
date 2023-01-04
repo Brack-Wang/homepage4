@@ -20,7 +20,7 @@ export default function App({ req, isCold }) {
               <span>Welcome to my digital life.</span>
               </h2>
             <h3>
-              <span>You're not defined by what you had, but by what you want to be.</span>
+              <span>You're not defined by what you had, but what you want to be.</span>
             </h3>
             <div class="info">
               <div class="block">
