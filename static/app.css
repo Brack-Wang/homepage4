@@ -166,9 +166,9 @@ main .details a {
     max-width: none;
   }
   main .info {
-    display: flex;
+    display: block;
     justify-content: center;
-    position: absolute;
+    position: relative;
     top: 60vh;
     gap: 4rem;
     grid-template-columns: 1fr 1fr;
