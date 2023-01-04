@@ -58,14 +58,14 @@ export default function App({ req, isCold }) {
               <div class="block">
                 <div class="contents">
                   <span class="details">{' '}
-                  <a target="_blank" href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cvi2.12112">
+                    <a target="_blank" href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cvi2.12112">
                         Publication
-                      </a> 
+                    </a> 
                   </span>
                   <strong class="details">{' '}
-                  <a target="_blank" href="https://franks-life-lv963oheh-brack-wang.vercel.app/">
+                    <a target="_blank" href="https://franks-life-lv963oheh-brack-wang.vercel.app/">
                         Life
-                      </a> 
+                    </a> 
                   </strong>
                 </div>
               </div>
@@ -73,11 +73,11 @@ export default function App({ req, isCold }) {
             </div>
           </main>
           <div class="debug">
-            Generated at {new Date().toISOString()} ({isCold ? 'cold' : 'hot'})
+            Now is {new Date().toLocaleDateString()} 
           </div>
         </div>
 
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
@@ -408,13 +408,13 @@ function Card() {
           />
         </g>
       </g>
-      <path
+      {/* <path
         id="vercel-logo"
         d="m336.4 261-46.2-80-46.2 80h92.4z"
         style={{
           fill: 'url(#gradient-vercel)',
         }}
-      />
+      /> */}
       <g id="center">
         <path
           d="M420 202 v36 M 402 220h36"
@@ -427,8 +427,8 @@ function Card() {
           }}
         />
       </g>
-      <use href="#react-logo" width={98} x={500} />
-      <use href="#react-logo" width={98} x={500} mask="url(#mask)" />
+      {/* <use href="#react-logo" width={98} x={500} />
+      <use href="#react-logo" width={98} x={500} mask="url(#mask)" /> */}
     </svg>
   );
 }

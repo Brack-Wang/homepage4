@@ -168,7 +168,7 @@ main .details a {
   main .info {
     display: flex;
     justify-content: center;
-    position: relative;
+    position: absolute;
     top: 60vh;
     gap: 4rem;
     grid-template-columns: 1fr 1fr;
