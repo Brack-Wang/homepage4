@@ -97,14 +97,14 @@ main .info {
   padding: 0 2.5rem;
   font-size: min(5vw, 2rem);
   box-sizing: border-box;
-  float: left;
+  text-align:center
 }
 
 
 main .block {
   display: flex;
   margin: 0;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 main .block:nth-child(1) {
