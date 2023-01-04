@@ -169,8 +169,9 @@ main .details a {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 70vh;
-    gap: 1rem;
+    left: 30vh;
+    top: 60vh;
+    gap: 5rem;
     grid-template-columns: 1fr 1fr;
   }
   main .block:nth-child(1) {
