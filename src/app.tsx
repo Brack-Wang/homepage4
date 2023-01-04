@@ -68,7 +68,7 @@ export default function App({ req, isCold }) {
                   </div>
                 </div>            
               </div>
-              <div class="info2">
+              {/* <div class="info2">
                 <div class="block">
                   <div class="contents">
                     <span class="details">{' '}
@@ -112,7 +112,7 @@ export default function App({ req, isCold }) {
                     </strong>
                   </div>
                 </div>            
-              </div>
+              </div> */}
             </div>
 
           </main>
