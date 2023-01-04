@@ -175,6 +175,13 @@ main .details a {
     gap: 5rem;
     grid-template-columns: 1fr 1fr;
   }
+
+  main .format {
+    display: flex;
+    position: relative;
+    text-align: center;
+
+  }
   main .block:nth-child(1) {
     border-bottom: none;
     justify-content: end;

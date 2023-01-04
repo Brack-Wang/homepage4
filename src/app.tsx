@@ -22,7 +22,7 @@ export default function App({ req, isCold }) {
             <h3>
               <span>You're not defined by what you had, but by what you want to be.</span>
             </h3>
-
+            <div class="format">
             <div class="info">
 
               <div class="block">
@@ -71,8 +71,9 @@ export default function App({ req, isCold }) {
               </div>
 
             </div>
+            </div>
 
-            <div class="info">
+            {/* <div class="info">
 
               <div class="block">
                 <div class="contents">
@@ -88,7 +89,7 @@ export default function App({ req, isCold }) {
                   </strong>
                 </div>
               </div>
-              </div>
+              </div> */}
 
 
           
