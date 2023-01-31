@@ -31,8 +31,8 @@ export default function App({ req, isCold }) {
                     </a> 
                   </span>
                   <strong class="details">{' '}
-                    <a target="_blank" href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cvi2.12112">
-                      Publication
+                    <a target="_blank" href="https://drive.google.com/file/d/17g9sUzGMUF2-VYOezrq5ZYsm4QEPUKss/view?usp=sharing">
+                      Resume
                     </a> 
                   </strong>
                 </div>
@@ -45,8 +45,8 @@ export default function App({ req, isCold }) {
                     </a> 
                   </span>
                   <strong class="details">{' '}
-                    <a target="_blank" href="https://space.bilibili.com/13924169">
-                      BiliBili
+                    <a target="_blank" href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cvi2.12112">
+                    Publication
                     </a> 
                   </strong>
                 </div>
