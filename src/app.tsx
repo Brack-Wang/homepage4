@@ -31,8 +31,8 @@ export default function App({ req, isCold }) {
                     </a> 
                   </span>
                   <strong class="details">{' '}
-                    <a target="_blank" href="https://space.bilibili.com/13924169">
-                      BiliBili
+                    <a target="_blank" href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cvi2.12112">
+                      Publication
                     </a> 
                   </strong>
                 </div>
@@ -40,13 +40,13 @@ export default function App({ req, isCold }) {
               <div class="block">
                 <div class="contents">
                   <span class="details">{' '}
-                    <a target="_blank" href="https://www.youtube.com/channel/UCBnlGtn9RYqbfJYIM5nwUKg">
-                      Youtube
+                    <a target="_blank" href="https://www.linkedin.com/in/feiran-wang-429250229/">
+                      Linkedin
                     </a> 
                   </span>
                   <strong class="details">{' '}
-                    <a target="_blank" href="https://www.zhihu.com/people/yang-qi-lin-49/posts">
-                      Zhihu
+                    <a target="_blank" href="https://space.bilibili.com/13924169">
+                      BiliBili
                     </a> 
                   </strong>
                 </div>
@@ -55,8 +55,8 @@ export default function App({ req, isCold }) {
               <div class="block">
                 <div class="contents">
                   <span class="details">{' '}
-                    <a target="_blank" href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cvi2.12112">
-                        Publication
+                    <a target="_blank" href="https://www.youtube.com/channel/UCBnlGtn9RYqbfJYIM5nwUKg">
+                      Youtube
                     </a> 
                   </span>
                   <strong class="details">{' '}
