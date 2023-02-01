@@ -31,7 +31,7 @@ export default function App({ req, isCold }) {
                     </a> 
                   </span>
                   <strong class="details">{' '}
-                    <a target="_blank" href="https://drive.google.com/file/d/17g9sUzGMUF2-VYOezrq5ZYsm4QEPUKss/view?usp=sharing">
+                    <a target="_blank" href="https://drive.google.com/file/d/1ZUadPD_DZ9DdN8W58w6PfENRyewYQVqN/view?usp=sharing">
                       Resume
                     </a> 
                   </strong>
