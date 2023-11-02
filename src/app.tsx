@@ -60,8 +60,8 @@ export default function App({ req, isCold }) {
                     </a> 
                   </span>
                   <strong class="details">{' '}
-                    <a target="_blank" href="https://franks-life-lv963oheh-brack-wang.vercel.app/">
-                        Life
+                    <a target="_blank" href="https://franks-life-git-main-brack-wang.vercel.app/about/">
+                        Personal Web
                     </a> 
                   </strong>
                 </div>
